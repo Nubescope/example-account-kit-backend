@@ -1,0 +1,82 @@
+{
+    "env": {
+      "node": true,
+      "jest": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 8
+    },
+    "plugins": ["node"],
+    "globals": {},
+    "rules": {
+      "quotes": [2, "single", "avoid-escape"],
+      "semi": [2, "never"],
+      "no-cond-assign": 0,
+      "camelcase": [2, { "properties": "never" }],
+      "curly": [2, "all"],
+      "no-eq-null": 2,
+      "eqeqeq": 2,
+      "no-eval": 0,
+      "no-extend-native": 2,
+      "block-scoped-var": 2,
+      "indent": [2, 2, { "SwitchCase": 1 }],
+      "wrap-iife": [2, "any"],
+      "max-depth": [2, 3],
+      "max-statements": [2, 35],
+      "no-shadow": 2,
+      "no-multi-spaces": ["error", { "exceptions": { "Property": true } }],
+      "no-multiple-empty-lines": [
+        "error",
+        { "max": 1, "maxBOF": 0, "maxEOF": 0 }
+      ],
+      "no-unused-vars": [2, { "ignoreRestSiblings": true }],
+      "no-undef": 2,
+      "no-underscore-dangle": [
+        "error",
+        { "allow": ["_initPaths", "_id", "access_token"] }
+      ],
+      "dot-notation": 0,
+      "no-with": 2,
+      "brace-style": 2,
+      "no-mixed-spaces-and-tabs": 2,
+      "one-var": [2, { "uninitialized": "always", "initialized": "never" }],
+      "quote-props": [2, "as-needed"],
+      "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
+      "space-unary-ops": [2, { "nonwords": false, "overrides": {} }],
+      "space-before-function-paren": [
+        "error",
+        {
+          "anonymous": "never",
+          "named": "never",
+          "asyncArrow": "always"
+        }
+      ],
+      "space-in-parens": [2, "never"],
+      "no-trailing-spaces": 2,
+      "new-cap": 2,
+      "keyword-spacing": [2, {}],
+      "spaced-comment": [2, "always"],
+      "space-infix-ops": 2,
+      "space-before-blocks": [2, "always"],
+      "comma-dangle": 0,
+      "linebreak-style": [2, "unix"],
+      "no-mixed-requires": [0],
+      "no-await-in-loop": 1,
+      "no-return-await": "error",
+      "require-await": "error",
+      "eol-last": [0],
+  
+      "generator-star-spacing": 1,
+      "object-shorthand": 1,
+      "arrow-parens": [2, "as-needed"],
+      "node/no-unsupported-features": [
+        "error",
+        {
+          "version": 7.6,
+          "ignores": []
+        }
+      ]
+    }
+  }
+  
